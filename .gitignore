@@ -16,6 +16,9 @@ ENV/
 # Streamlit
 .streamlit/
 
+# VS Code/Markdown paste artifacts
+image/
+
 # OS
 .DS_Store
 Thumbs.db

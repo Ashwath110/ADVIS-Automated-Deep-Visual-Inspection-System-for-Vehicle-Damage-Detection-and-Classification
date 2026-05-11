@@ -2,17 +2,10 @@
 
 ## Output Screenshot
 
-![ADVIS UI Output](ADVIS_output.jpg)
+![ADVIS UI Output](output.png)
 
 ## Overview
 ADVIS is a Streamlit-based web app for vehicle damage inspection. You upload an image, the system analyzes it, and the app presents detection/analysis outputs (counts, confidence, severity summary, and visuals).
-
-> Note on the implementation vs this README
->
-> - The current code in this repository (see `app.py`) uses **Detectron2 / Mask R-CNN** for instance segmentation.
-> - This README describes a **Hybrid XGBoost–LSTM** approach as the *target / recommended algorithm* for a redesigned pipeline.
->
-> If you want the code updated to actually run the Hybrid XGBoost–LSTM pipeline (instead of Detectron2), tell me and I’ll refactor the implementation accordingly.
 
 ## Proposed Algorithm: Hybrid XGBoost–LSTM (instead of Mask R-CNN)
 A pure Mask R-CNN pipeline is great when you need pixel-level segmentation, but it can be heavy on compute and harder to deploy/maintain on CPU-only environments. A **Hybrid XGBoost–LSTM** approach is a practical alternative when your goal is robust **damage classification / severity estimation** from one or more images and when you can represent the image(s) as compact features.
