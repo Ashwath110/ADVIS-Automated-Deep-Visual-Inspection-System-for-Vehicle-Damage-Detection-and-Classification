@@ -1,0 +1,10 @@
+
+=========== ADVIS DAMAGE REPORT ===========
+
+Total Damages Detected : 100
+Severity Level         : High
+
+Model Used             : Mask R-CNN (Detectron2)
+Inference Device       : cuda
+
+===========================================

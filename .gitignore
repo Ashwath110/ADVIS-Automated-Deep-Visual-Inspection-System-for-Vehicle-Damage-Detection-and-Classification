@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model/training artifacts (too large for normal GitHub)
+TRAIN/
+*.pth
+*.pt
+
+# Datasets (keep them external or use a dedicated storage)
+Car Damage V5.v1i.coco-segmentation/
+
+# Generated outputs
+*.pdf
+*.log

@@ -1,0 +1,25 @@
+# ADVIS - Vehicle Damage Detection System Requirements
+
+# Core packages
+streamlit
+torch
+torchvision
+opencv-python
+numpy
+matplotlib
+pillow
+pyyaml
+tqdm
+scikit-image
+scikit-learn
+plotly
+reportlab
+
+# Detectron2 (Deep Learning Framework)
+git+https://github.com/facebookresearch/detectron2.git
+
+# Installation Notes:
+# - For Windows users, if detectron2 installation fails, use:
+#   pip install 'git+https://github.com/facebookresearch/detectron2.git' --no-build-isolation
+# - Detectron2 requires torch to be installed first
+# - On Windows, CPU-only PyTorch is supported
