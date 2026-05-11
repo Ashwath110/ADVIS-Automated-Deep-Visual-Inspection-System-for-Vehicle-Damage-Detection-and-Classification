@@ -1,5 +1,7 @@
 # ADVIS — Automated Deep Visual Inspection System
 
+## Output Screenshot
+
 ![ADVIS UI Output](ADVIS_output.jpg)
 
 ## Overview
